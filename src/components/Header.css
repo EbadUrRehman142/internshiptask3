@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #011b49; /* Dark background color */
+    color: white;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+    position: absolute;
+    top: 20px; /* Adjust top based on your design */
+    width: calc(100% - 101px);    /* Full width minus padding */
+    left: 20px; /* Adjust to match padding */
+    z-index: 1; /* Ensure it stays above other content */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: italic; /* Improved font */
+    letter-spacing: 1px;
+    color: #95def5;
+}
+
+.header .logo {
+    width: 50px; /* Adjust logo size */
+    height: auto;
+    border-radius: 10px; /* Rounded corners for logo */
+}
+
+.cart-button {
+    background-color: #61dafb; /* Bright button color */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cart-button:hover {
+    background-color: #4fa3d8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.cart-button:focus {
+    outline: none;
+}
